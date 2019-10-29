@@ -1,0 +1,979 @@
+* {
+    box-sizing: border-box;
+}
+ html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+} 
+
+.hover-enlace2:hover {
+    opacity:0.5;  
+}
+.imagen-fondo-1{
+position: absolute;
+z-index: -1;
+left: 78%;
+}
+
+.imagen-fondo-2{
+    position: absolute;
+    z-index: -1;
+    top: 190%;
+    }
+
+.imagen-fondo-3 {
+    position: absolute;
+    z-index: -1;
+    top:450%;
+}    
+
+a {
+    cursor: pointer;
+}
+
+img:hover {
+    opacity:0.5;  
+    cursor: pointer;
+}
+
+/* MAIN */
+    @font-face {
+        font-family: "silka-medium-webfont";
+        src: url("fonts/silka-medium-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-regular-webfont";
+        src: url("fonts/silka-regular-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-light-webfont";
+        src: url("fonts/silka-light-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-bold-webfont";
+        src: url("fonts/silka-bold-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-extralight-webfont";
+        src: url("fonts/silka-extralight-webfont.woff");
+    }
+
+@media only screen and (min-width:1025px) and (max-width:1800px){
+    /* TEXT */
+        h1 {
+            color: #404040;
+            font-size: 75px;
+            font-family: "silka-regular-webfont";
+        }
+
+        h2 {
+            color: #404040;
+            font-size: 18px;
+            font-family: "silka-bold-webfont";
+
+        }
+
+        h3 {
+            color: white;
+            font-size: 75px;
+            font-family: "silka-regular-webfont";
+        }
+
+        p {
+            color: #404040;
+            font-size: 16px;
+            font-family: "silka-light-webfont";
+        }
+
+
+        a {
+            color: #404040;
+            font-size: 16px;
+            font-family: "silka-medium-webfont";
+            text-decoration: none;
+            cursor:pointer;
+
+        }
+
+        h1 span{
+            font-family: "silka-extralight-webfont";  
+
+        }
+
+
+    /* GENERAL */
+
+   
+        header {
+            width: 100%;
+            padding: 40px 40px 40px 40px;
+
+        }
+
+        footer {
+            background-color: #000000;
+            width: 100%;
+            height: 300px;
+            padding: 80px 80px 80px 80px;
+            margin-top: 150px;
+        }
+
+        .contenedor-footer-contacto:hover {
+            opacity:0.5;  
+        }
+        .flecha-contacto {
+            width: 80px;
+        }
+        .contenedor-footer-contacto {
+            display: flex;
+        }
+
+
+        section {
+            margin: 0 auto;
+            margin-top: 80px;
+            margin-bottom: 40px;
+            width: 80%;
+
+        }
+
+
+
+
+    /* HEADER */
+
+    .frase-principal {
+        padding-top: 8%;
+        margin-bottom:6%;
+        
+    }
+
+    .nav-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    .ul-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 15%;
+       
+
+    }
+
+
+
+    /* MAIN */
+    .descripcion-proyecto {
+        margin-top: 10px;
+        line-height: 1.4;
+    }
+    .descripcion-proyecto span{
+        color: #BFBFBF;
+        
+
+    }
+    .proyecto-descripcion span{
+        color: #BFBFBF;
+        line-height: 1.4;
+        
+
+    }
+
+    .text-proyecto {
+        width: 220px;
+        margin-top: 20px;
+
+    }
+
+    /* SECTION-1 */
+
+    .img-huertify-container {
+        width: 50%;
+    }
+    .img-huertify-container img{
+        width: 100%;
+    }
+
+    .proyecto_1 {
+        /*background-color: pink;*/
+        display:flex;
+    }
+
+    .text-huertify {
+        margin-top:60px;
+        margin-left:40px;
+    }
+
+
+
+    /* SECTION-2 */
+
+    .img-kitchen {
+        width: 100%;
+        
+    }
+    .img-voz-container {
+        margin-right: 10%;
+        width: 50%;
+    }
+    .proyecto_2 {
+        /*background-color: pink;*/
+        display:flex;
+        flex-direction: row-reverse;
+    }
+
+    .text-voz {
+        margin-top: 60px;
+        
+    }
+
+    /* SECTION dos proyectos */
+
+    .seccion-tres-proyectos {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        /*background-color: pink;*/
+        
+    }
+
+
+    /* proyecto-3 */
+    .proyecto_3 {
+        ;
+    }
+
+    .imagen-wellnes {
+        width: 500px;
+    }
+
+
+
+    /* proyecto-4 */
+
+
+
+    .imagen-thecore {
+        width: 85%;
+        
+    }
+
+    .caja-imagen-thecore {
+        display: flex;
+        justify-content: flex-end; 
+    }
+
+    .text-thecore {
+        width: 100%;
+        display:flex;
+        justify-content: flex-end;
+        margin-left: 30px;
+    }
+
+    .proyecto-descripcion {
+    width: 85%;
+    }
+
+    .proyecto-descripcion p{
+        width: 220px;
+    }
+    .text-wellness {
+        margin-left: 30px;
+    }
+  
+
+
+    /*proyecto_5*/
+
+
+    .imagen-editorial-caja {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .textdescripcioncaja-5 {
+        display:flex;
+        justify-content: flex-end;
+    }
+    .textDescriptionDetalle {
+        width: 805px;
+        padding-top: 20px;
+    }
+    .textDescriptionDetalle p{
+    width: 220px; }
+
+    .textDescriptionDetalle p{
+        margin-left: 30px; }
+        .textDescriptionDetalle h2{
+            margin-left: 30px; }
+
+
+
+
+    /*proyecto_6*/
+    .img-huertify2-caja {
+        width: 50%;
+
+    }
+    .img-huertify2 {
+        width: 100%;
+    }
+    .text-final {
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+    /* FOOTER */
+    .texto-footer {
+        color: white;
+        font-size: 20px;
+        margin-top: 120px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    .imagen-fondo-1{
+        display:none;
+        }
+        
+        .imagen-fondo-2{
+            display:none;
+            }
+        
+        .imagen-fondo-3 {
+            display:none;
+        }  
+
+
+    /* TEXT */
+    h1 {
+        color: #404040;
+        font-size: 55px;
+        font-family: "silka-regular-webfont";
+    }
+
+    h2 {
+        color: #404040;
+        font-size: 18px;
+        font-family: "silka-bold-webfont";
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 55px;
+        font-family: "silka-regular-webfont";
+    }
+
+    p {
+        color: #404040;
+        font-size: 16px;
+        font-family: "silka-light-webfont";
+    }
+
+
+    a {
+        color: #404040;
+        font-size: 16px;
+        font-family: "silka-medium-webfont";
+        text-decoration: none;
+
+    }
+
+    h1 span{
+        font-family: "silka-extralight-webfont";  
+
+    }
+
+
+/* GENERAL */
+
+a {
+    cursor:pointer;
+}
+
+    header {
+        width: 100%;
+        padding: 40px 40px 40px 40px;
+
+    }
+
+    footer {
+        background-color: #000000;
+        width: 100%;
+        height: 400px;
+        padding: 80px 80px 80px 80px;
+        margin-top: 100px;
+    }
+    .contenedor-footer-contacto:hover {
+        opacity:0.5;  
+    }
+    .flecha-contacto {
+        width: 60px;
+    }
+    .contenedor-footer-contacto {
+        display: flex;
+    }
+    section {
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 80%;
+
+    }
+
+
+
+
+/* HEADER */
+
+.frase-principal {
+    padding-top: 8%;
+    margin-bottom:10%;
+    
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.ul-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+   
+
+}
+
+
+
+/* MAIN */
+.descripcion-proyecto {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.descripcion-proyecto span{
+    color: #BFBFBF;
+    
+
+}
+
+.text-proyecto {
+    width: 220px;
+    margin-top: 20px;
+
+}
+
+/* SECTION-1 */
+
+.img-huertify-container {
+    width: 60%;
+}
+.img-huertify-container img{
+    width: 100%;
+}
+
+.proyecto_1 {
+    /*background-color: pink;*/
+    display:flex;
+}
+
+.text-huertify {
+    margin-top:60px;
+    margin-left:40px;
+}
+
+
+
+/* SECTION-2 */
+
+.img-kitchen {
+    width: 100%;
+    
+}
+.img-voz-container {
+    margin-right: 0%;
+    width: 90%;
+}
+.proyecto_2 {
+    /*background-color: pink;*/
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.text-voz {
+    margin-top: 60px;
+    
+}
+
+/* SECTION dos proyectos */
+
+.seccion-tres-proyectos {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /*background-color: pink;*/
+    
+}
+
+
+/* proyecto-3 */
+.proyecto_3 {
+    ;
+}
+
+.imagen-wellnes {
+    width: 85%;
+}
+
+
+
+/* proyecto-4 */
+
+.proyecto_4 {
+    margin-top: 12%;
+}
+
+.imagen-thecore {
+    width: 85%;
+    
+}
+
+.caja-imagen-thecore {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.text-thecore {
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.proyecto-descripcion {
+width: 85%;
+}
+
+.proyecto-descripcion p{
+    width: 220px;
+}
+.text-wellness {
+    margin-left: 30px;
+}
+
+
+/*proyecto_5*/
+
+.proyecto_5 {
+    
+}
+.imagen-editorial-caja {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.imagen-editorial-caja img{
+    width: 100%;
+}
+.textdescripcioncaja-5 {
+    display:flex;
+    justify-content: flex-end;
+}
+.textDescriptionDetalle {
+    width: 805px;
+    padding-top: 20px;
+}
+.textDescriptionDetalle p{
+width: 220px; }
+
+.textDescriptionDetalle p{
+    margin-left: 30px; }
+    .textDescriptionDetalle h2{
+        margin-left: 30px; }
+
+
+
+
+/*proyecto_6*/
+.img-huertify2-caja {
+    width: 60%;
+
+}
+.img-huertify2 {
+    width: 100%;
+}
+.text-final {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+.texto-footer {
+    color: white;
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+
+
+
+}
+
+
+/********* ota media mas **********/
+/********* ota media mas **********/
+/********* ota media mas **********/
+/********* ota media mas **********/
+/********* ota media mas **********/
+/********* ota media mas **********/
+/********* ota media mas **********/
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .imagen-fondo-1{
+        display:none;
+        }
+        
+        .imagen-fondo-2{
+            display:none;
+            }
+        
+        .imagen-fondo-3 {
+            display:none;
+        }  
+
+    /* TEXT */
+    h1 {
+        color: #404040;
+        font-size: 40px;
+        font-family: "silka-regular-webfont";
+    }
+
+    h2 {
+        color: #404040;
+        font-size: 18px;
+        font-family: "silka-bold-webfont";
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 40px;
+        font-family: "silka-regular-webfont";
+    }
+
+    p {
+        color: #404040;
+        font-size: 16px;
+        font-family: "silka-light-webfont";
+    }
+
+
+    a {
+        color: #404040;
+        font-size: 16px;
+        font-family: "silka-medium-webfont";
+        text-decoration: none;
+
+    }
+
+    h1 span{
+        font-family: "silka-extralight-webfont";  
+
+    }
+
+
+/* GENERAL */
+
+a {
+    cursor:pointer;
+}
+
+    header {
+        width: 100%;
+        padding: 40px 16px 40px 16px;
+
+    }
+
+    footer {
+        background-color: #000000;
+        width: 100%;
+        height: 330px;
+        padding: 80px 16px 50px 16px;
+        margin-top: 70px;
+    }
+
+    .contenedor-footer-contacto:hover {
+        opacity:0.5;  
+    }
+    .flecha-contacto {
+        width: 40px;
+    }
+    .contenedor-footer-contacto {
+        display: flex;
+    }
+
+
+    section {
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 80%;
+
+    }
+
+
+
+
+/* HEADER */
+
+.frase-principal {
+    padding-top: 8%;
+    margin-bottom:10%;
+    
+}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.ul-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+   
+
+}
+
+
+
+/* MAIN */
+.descripcion-proyecto {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.descripcion-proyecto span{
+    color: #BFBFBF;
+    
+
+}
+
+.text-proyecto {
+    width: 220px;
+    margin-top: 20px;
+
+}
+
+/* SECTION-1 */
+
+.img-huertify-container {
+    width: 85%;
+}
+.img-huertify-container img{
+    width: 100%;
+}
+
+.proyecto_1 {
+    /*background-color: pink;*/
+    display:flex;
+    flex-direction: column;
+}
+
+.text-huertify {
+    margin-top:20px;
+    margin-left:10px;
+}
+
+
+
+/* SECTION-2 */
+
+.img-kitchen {
+    width: 100%;
+    
+}
+.img-voz-container {
+    margin-right: 0%;
+    width: 90%;
+}
+.proyecto_2 {
+    /*background-color: pink;*/
+    display:flex;
+    flex-direction: column;
+}
+
+.text-voz {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+/* SECTION dos proyectos */
+
+.seccion-tres-proyectos {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /*background-color: pink;*/
+    
+}
+
+
+/* proyecto-3 */
+.proyecto_3 {
+    ;
+}
+
+.imagen-wellnes {
+    width: 85%;
+}
+.text-wellness {
+    margin-left: 10px;
+}
+
+
+
+/* proyecto-4 */
+
+.proyecto_4 {
+    margin-top: 12%;
+}
+
+.imagen-thecore {
+    width: 85%;
+    
+}
+
+.caja-imagen-thecore {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.text-thecore {
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.proyecto-descripcion {
+width: 85%;
+}
+
+.proyecto-descripcion p{
+    width: 220px;
+}
+
+
+
+/*proyecto_5*/
+
+.proyecto_5 {
+    
+}
+.imagen-editorial-caja {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.imagen-editorial-caja img{
+    width: 100%;
+}
+.textdescripcioncaja-5 {
+    display:flex;
+    justify-content: flex-end;
+}
+.textDescriptionDetalle {
+    width: 805px;
+    padding-top: 20px;
+}
+.textDescriptionDetalle p{
+width: 220px; }
+
+.textDescriptionDetalle p{
+    margin-left: 10px; }
+    .textDescriptionDetalle h2{
+        margin-left: 10px; }
+
+
+
+
+/*proyecto_6*/
+.img-huertify2-caja {
+    width: 85%;
+
+}
+.img-huertify2 {
+    width: 100%;
+}
+.text-final {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+.texto-footer {
+    color: white;
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+.destacado-footer {
+    font-size: 40px;
+}
+
+
+}
+
+
+
+.logo {
+    width: 50px;
+}

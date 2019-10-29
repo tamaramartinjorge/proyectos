@@ -1,0 +1,1084 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+} 
+
+.hover-enlace:hover {
+    opacity:0.5;  
+}
+.hover-enlace2:hover {
+    opacity:0.5;  
+}
+/* MAIN */
+    @font-face {
+        font-family: "silka-medium-webfont";
+        src: url("../fonts/silka-medium-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-regular-webfont";
+        src: url("../fonts/silka-regular-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-light-webfont";
+        src: url("../fonts/silka-light-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-bold-webfont";
+        src: url("../fonts/silka-bold-webfont.woff");
+    }
+
+    @font-face {
+        font-family: "silka-extralight-webfont";
+        src: url("../fonts/silka-extralight-webfont.woff");
+    }
+
+    @media only screen and (min-width:1025px) and (max-width:1800px){
+
+    /* TEXT */
+    h1 {
+        color: #404040;
+        font-size: 65px;
+        font-family: "silka-regular-webfont";
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        color: #404040;
+        font-size: 25px;
+        font-family: "silka-medium-webfont";
+        margin-bottom: 25px;
+        
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 75px;
+        font-family: "silka-regular-webfont";
+    }
+
+    p {
+        color: #404040;
+        font-size: 18px;
+        font-family: "silka-light-webfont";
+        line-height: 1.4em;
+    }
+    .parrafo-principal {
+        font-size: 22px;
+    }
+    .numero {
+        font-size: 30px;
+        font-family: "silka-medium-webfont"
+    }
+    .parrafo-numero {
+        font-family: "silka-medium-webfont"
+    }
+    
+
+
+    a {
+        color: #404040;
+        font-size: 16px;
+        font-family: "silka-medium-webfont";
+        text-decoration: none;
+
+    }
+
+    h1 span{
+        font-family: "silka-extralight-webfont";  
+
+    }
+
+    .text-suave p{
+        color:#B6B6B6;
+
+    }
+
+    li {
+        color: #404040;
+        font-family: "silka-light-webfont";
+        font-size: 26px;
+        padding-bottom:10px;
+
+    }
+
+
+    /* GENERAL */
+
+    header {
+        width: 100%;
+        padding: 40px 40px 40px 40px
+
+    }
+
+    footer {
+        background-color: #000000;
+        width: 100%;
+        height: 300px;
+        padding: 80px 80px 80px 80px;
+        margin-top: 150px;
+    }
+
+    .contenedor-footer-contacto:hover {
+        opacity:0.5;  
+    }
+    .flecha-contacto {
+        width: 80px;
+    }
+    .contenedor-footer-contacto {
+        display: flex;
+    }
+
+    section {
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        width: 80%;
+
+    }
+
+
+    /* HEADER */
+
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+
+}
+
+
+  /* MAIN */
+
+
+
+/*SECTION 1*/
+.texto-principal {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto-principal-secundario {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texto-principal-secundario-parrafo {
+    width: 60%;
+}
+
+
+/*imagen principal*/
+.imagen-portada-huertify {
+    width: 100%;
+    padding-top: 0px;
+}
+.imagenportadadiv {
+   margin: 0 auto;
+   width:95%;
+   
+}
+.paramargen {
+    margin-top:22px;
+}
+
+
+/*imagen portada doble*/
+.imagenportadadoble {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.imagenportadadoble div{
+width: 49%;
+}
+
+
+
+/*TEXTO INVESTIGACIÓN*/
+
+.texto-investigacion {
+    display:flex;
+    justify-content: space-between;
+    
+    padding-top: 120px;
+    
+}
+.texto-principal-investigacion {
+    width: 60%;
+}
+.texto-encuestas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/*TEXTO INVESTIGACIÓN PORCENTA*/
+
+.texto-secundario-investigacion {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+.texto-secundario-investigacion div{
+    width: 70%;
+}
+
+
+/*TEXTO DEFINICION*/
+
+.texto-definiendo {
+    display:flex;
+    justify-content: space-between;
+    
+    padding-top: 120px;
+    
+}
+.texto-principal-definiendo {
+    width: 60%;
+}
+.texto-definiendo-detalles {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/*TEXTO DEFINICION TRES PARTES*/
+
+.texto-secundario-definiendo {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+.texto-secundario-definiendo div{
+    width: 70%;
+}
+.definicion-marca {
+    font-size: 22px;
+    font-family: "silka-medium-webfont"
+}
+.parrafo-marca {
+    font-family: "silka-light-webfont"
+}
+
+
+
+
+
+
+
+
+/*IMAGEN BRAND*/
+
+.imagen-estilo-brand-huertify {
+    width: 100%
+}
+
+.estilo-brand-huertify {
+    margin:0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*TEXTO solucion*/
+
+.texto-solucion {
+    display:flex;
+    justify-content: space-between;
+    
+    padding-top: 120px;   
+}
+.texto-principal-solucion {
+    width: 60%;
+    
+    
+}
+
+
+.texto-secundario-solucion {
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 60px;  
+    padding-bottom: 120px; 
+}
+.texto-secundario-solucion div{
+    width: 48%;
+   
+    
+}
+.secundario-solucion-parrafo span{
+    font-family: "silka-regular-webfont";
+    font-size: 20px;
+   
+}
+
+.destacado-secundario-solucion {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "silka-regular-webfont";
+}
+.secundario-solucion-parrafo1 {
+  
+    padding-bottom: 15px;
+}
+
+
+
+/* FOOTER */
+.texto-footer {
+    color: white;
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+    }
+
+
+
+
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+    /*OTRA MEDIA MAS*/
+
+    @media only screen and (min-width:768px) and (max-width:1024px){
+
+        h1 {
+            color: #404040;
+            font-size: 65px;
+            font-family: "silka-regular-webfont";
+            margin-bottom: 40px;
+        }
+    
+        h2 {
+            color: #404040;
+            font-size: 25px;
+            font-family: "silka-medium-webfont";
+            margin-bottom: 25px;
+            
+    
+        }
+    
+        h3 {
+            color: white;
+            font-size: 75px;
+            font-family: "silka-regular-webfont";
+        }
+    
+        p {
+            color: #404040;
+            font-size: 15px;
+            font-family: "silka-light-webfont";
+            line-height: 1.4em;
+        }
+        .parrafo-principal {
+            font-size: 18px;
+        }
+        .numero {
+            font-size: 25px;
+            font-family: "silka-medium-webfont"
+        }
+        .parrafo-numero {
+            font-family: "silka-medium-webfont";
+            font-size: 13px;
+        }
+        
+    
+    
+        a {
+            color: #404040;
+            font-size: 16px;
+            font-family: "silka-medium-webfont";
+            text-decoration: none;
+    
+        }
+    
+        h1 span{
+            font-family: "silka-extralight-webfont";  
+    
+        }
+    
+        .text-suave p{
+            color:#B6B6B6;
+    
+        }
+    
+        li {
+            color: #404040;
+            font-family: "silka-light-webfont";
+            font-size: 20px;
+            padding-bottom:10px;
+    
+        }
+    
+    
+        /* GENERAL */
+    
+        header {
+            width: 100%;
+            padding: 40px 40px 40px 40px
+    
+        }
+    
+        footer {
+            background-color: #000000;
+            width: 100%;
+            height: 300px;
+            padding: 80px 80px 80px 80px;
+            margin-top: 60px;
+        }
+
+
+        .contenedor-footer-contacto:hover {
+            opacity:0.5;  
+        }
+        .flecha-contacto {
+            width: 60px;
+        }
+        .contenedor-footer-contacto {
+            display: flex;
+        }
+
+
+
+        section {
+            margin: 0 auto;
+            margin-top: 70px;
+            margin-bottom: 40px;
+            width: 80%;
+    
+        }
+    
+    
+        /* HEADER */
+    
+    
+    .nav-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .ul-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 15%;
+    
+    }
+    
+    
+      /* MAIN */
+    
+    
+    
+    /*SECTION 1*/
+    .texto-principal {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .texto-principal-secundario {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .texto-principal-secundario-parrafo {
+        width: 60%;
+    }
+    
+    
+    /*imagen principal*/
+    .imagen-portada-huertify {
+        width: 100%;
+        padding-top: 2%;
+    }
+    .imagenportadadiv {
+       margin: 0 auto;
+       width:95%;
+       
+    }
+    
+    
+    /*imagen portada doble*/
+    .imagenportadadoble {
+        display:flex;
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+    .imagenportadadoble div{
+    width: 48%;
+    }
+    
+    
+    /*TEXTO INVESTIGACIÓN*/
+    
+    .texto-investigacion {
+        display:flex;
+        justify-content: space-between;
+        
+        padding-top: 20px;
+        
+    }
+    .texto-principal-investigacion {
+        width: 60%;
+    }
+    .texto-encuestas {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    /*TEXTO INVESTIGACIÓN PORCENTA*/
+    
+    .texto-secundario-investigacion {
+        display:flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .texto-secundario-investigacion div{
+        width: 70%;
+    }
+    
+    /*IMAGEN BRAND*/
+    
+    .imagen-estilo-brand-huertify {
+        width: 100%
+    }
+    
+    .estilo-brand-huertify {
+        margin:0 auto;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    /*TEXTO DEFINICION*/
+
+.texto-definiendo {
+    display:flex;
+    justify-content: space-between;
+    
+    padding-top: 20px;
+    
+}
+.texto-principal-definiendo {
+    width: 60%;
+}
+.texto-definiendo-detalles {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/*TEXTO DEFINICION TRES PARTES*/
+
+.texto-secundario-definiendo {
+    display:flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding-bottom: 60px;
+}
+
+.texto-secundario-definiendo div{
+    width: 70%;
+}
+.definicion-marca {
+    font-size: 22px;
+    font-family: "silka-medium-webfont"
+}
+.parrafo-marca {
+    font-family: "silka-light-webfont"
+}
+
+
+
+
+
+
+
+
+
+
+    
+    /*TEXTO solucion*/
+    
+    .texto-solucion {
+        display:flex;
+        justify-content: space-between;
+        
+        padding-top: 30px;   
+    }
+    .texto-principal-solucion {
+        width: 60%;
+        
+        
+    }
+    
+    
+    .texto-secundario-solucion {
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 60px;  
+        padding-bottom: 30px; 
+    }
+    .texto-secundario-solucion div{
+        width: 48%;
+        
+        
+    }
+    
+    .destacado-secundario-solucion {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: "silka-regular-webfont";
+    }
+    .secundario-solucion-parrafo {
+        font-size:15px;
+        font-family: 
+    }
+    
+    
+    
+    /* FOOTER */
+    .texto-footer {
+        color: white;
+        font-size: 20px;
+        margin-top: 120px;
+    }
+
+
+    }
+
+
+
+/*otra media*/
+/*otra media*/
+/*otra media*/
+/*otra media*/
+/*otra media*/
+/*otra media*/
+/*otra media*/
+
+
+
+
+
+    @media only screen and (min-width:320px) and (max-width:767px){
+
+        h1 {
+            color: #404040;
+            font-size: 50px;
+            font-family: "silka-regular-webfont";
+            margin-bottom: 30px;
+        }
+    
+        h2 {
+            color: #404040;
+            font-size: 25px;
+            font-family: "silka-medium-webfont";
+            margin-bottom: 15px;
+            
+    
+        }
+    
+        h3 {
+            color: white;
+            font-size: 50px;
+            font-family: "silka-regular-webfont";
+        }
+    
+        p {
+            color: #404040;
+            font-size: 15px;
+            font-family: "silka-light-webfont";
+            line-height: 1.4em;
+        }
+        .parrafo-principal {
+            font-size: 18px;
+        }
+        .numero {
+            font-size: 25px;
+            font-family: "silka-medium-webfont"
+        }
+        .parrafo-numero {
+            font-family: "silka-medium-webfont";
+            font-size: 13px;
+        }
+        
+    
+    
+        a {
+            color: #404040;
+            font-size: 16px;
+            font-family: "silka-medium-webfont";
+            text-decoration: none;
+    
+        }
+    
+        h1 span{
+            font-family: "silka-extralight-webfont";  
+    
+        }
+    
+        .text-suave p{
+            color:#B6B6B6;
+    
+        }
+    
+        li {
+            color: #B6B6B6;
+            font-family: "silka-light-webfont";
+            font-size: 20px;
+            padding-bottom:10px;
+    
+        }
+    
+    
+        /* GENERAL */
+    
+        header {
+            width: 100%;
+            padding: 40px 16px 40px 16px
+    
+        }
+    
+        footer {
+            background-color: #000000;
+            width: 100%;
+            height: 330px;
+            padding: 80px 16px 80px 16px;
+            margin-top: 70px;
+        }
+
+        .contenedor-footer-contacto:hover {
+            opacity:0.5;  
+        }
+        .flecha-contacto {
+            width: 40px;
+        }
+        .contenedor-footer-contacto {
+            display: flex;
+        }
+
+
+
+        section {
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            width: 90%;
+    
+        }
+    
+    
+        /* HEADER */
+    
+    
+    .nav-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .ul-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 15%;
+    
+    }
+    
+    
+      /* MAIN */
+    
+    
+    
+    /*SECTION 1*/
+    .texto-principal {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .texto-principal-secundario {
+        display:flex;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .texto-principal-secundario-parrafo {
+        width: 100%;
+    }
+
+    .elementos-diseño-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+    }
+    
+    
+    /*imagen principal*/
+    .imagen-portada-huertify {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .paramargen {
+        padding-top: 5px;
+
+    }
+    .imagenportadadiv {
+       margin: 0 auto;
+       width:95%;
+       
+    }
+    
+    
+    /*imagen portada doble*/
+    .imagenportadadoble {
+        display:flex;
+        justify-content: space-between;
+        padding-top: 5px;
+        
+    }
+   
+    .imagenportadadoble div{
+    width: 49%;
+    }
+    
+    
+    /*TEXTO INVESTIGACIÓN*/
+    
+    .texto-investigacion {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        
+        padding-top: 10px;
+        
+    }
+    .texto-principal-investigacion {
+        width: 100%;
+    }
+    .texto-encuestas {
+        display: flex;
+        flex-direction: column;
+       margin-top: 10px;
+    }
+    
+    /*TEXTO INVESTIGACIÓN PORCENTA*/
+    
+    .texto-secundario-investigacion {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .texto-secundario-investigacion div{
+        width: 75%;
+    }
+    
+    /*IMAGEN BRAND*/
+    
+    .imagen-estilo-brand-huertify {
+        width: 100%
+    }
+    
+    .estilo-brand-huertify {
+        margin:0 auto;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+/*TEXTO DEFINICION*/
+
+.texto-definiendo {
+    display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        
+        padding-top: 10px;
+    
+}
+.texto-principal-definiendo {
+    width: 100%;
+}
+.texto-definiendo-detalles {
+    display: flex;
+        flex-direction: column;
+       margin-top: 10px;
+}
+
+/*TEXTO DEFINICION TRES PARTES*/
+
+.texto-secundario-definiendo {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.texto-secundario-definiendo div{
+    width: 100%;
+}
+.definicion-marca {
+    font-size: 22px;
+    font-family: "silka-medium-webfont"
+}
+.parrafo-marca {
+    font-family: "silka-light-webfont"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    /*TEXTO solucion*/
+    
+    .texto-solucion {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        
+        padding-top: 10px;   
+    }
+    .texto-principal-solucion {
+        width: 100%;
+        
+        
+    }
+    
+    
+    .texto-secundario-solucion {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 0px;  
+        padding-bottom: 30px; 
+    }
+    .texto-secundario-solucion div{
+        width: 100%;
+        
+        
+    }
+    
+    .destacado-secundario-solucion {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: "silka-regular-webfont";
+        margin-top: 20px;
+    }
+    .secundario-solucion-parrafo {
+        font-size:15px;
+        
+    }
+    
+    
+    
+    /* FOOTER */
+    .texto-footer {
+        color: white;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    section {
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        width: 80%;
+
+    }
+    .enespera {
+        color: #404040;
+        font-size: 55px;
+        font-family: "silka-regular-webfont";
+        margin-bottom: 120px;
+        margin-top: 120px;
+        line-height: 1.6;
+
+    }
+    span {
+        font-family: "silka-extralight-webfont";
+    }
+
+
+
+
+
+
+
+
