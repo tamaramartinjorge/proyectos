@@ -485,6 +485,12 @@ a {
     
 
 }
+    .proyecto-descripcion span{
+    color: #BFBFBF;
+    line-height: 1.4;
+    
+
+}
 
 .text-proyecto {
     width: 220px;
@@ -795,6 +801,12 @@ a {
 }
 .descripcion-proyecto span{
     color: #BFBFBF;
+    
+
+}
+    .proyecto-descripcion span{
+    color: #BFBFBF;
+    line-height: 1.4;
     
 
 }
