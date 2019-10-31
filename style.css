@@ -110,6 +110,7 @@ img:hover {
             font-family: "silka-medium-webfont";
             text-decoration: none;
             cursor:pointer;
+            line-height: 60px;
 
         }
 
@@ -418,6 +419,7 @@ img:hover {
         font-size: 16px;
         font-family: "silka-medium-webfont";
         text-decoration: none;
+        line-height: 60px;
 
     }
 
@@ -742,6 +744,7 @@ width: 220px; }
         font-size: 16px;
         font-family: "silka-medium-webfont";
         text-decoration: none;
+        line-height: 60px;
 
     }
 
