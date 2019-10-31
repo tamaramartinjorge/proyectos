@@ -124,7 +124,7 @@ img:hover {
    
         header {
             width: 100%;
-            padding: 40px 40px 40px 40px;
+            padding: 40px 0px 40px 0px;
 
         }
 
@@ -435,7 +435,7 @@ a {
 
     header {
         width: 100%;
-        padding: 40px 40px 40px 40px;
+        padding: 40px 0px 40px 0px;
 
     }
 
