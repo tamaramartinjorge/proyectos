@@ -1018,3 +1018,7 @@ width: 220px; }
 .logo {
     width: 50px;
 }
+
+.menu_link {
+    padding-left: 15px;
+}
