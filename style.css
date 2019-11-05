@@ -26,9 +26,7 @@ left: 78%;
     }
 
 .imagen-fondo-3 {
-    position: absolute;
-    z-index: -1;
-    top:580%;
+   display:none;
 }    
 
 a {
@@ -361,6 +359,7 @@ img:hover {
     }
 
 }
+
 
 
 
