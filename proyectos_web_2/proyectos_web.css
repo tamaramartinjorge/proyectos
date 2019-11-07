@@ -92,6 +92,7 @@ body {
         font-size: 16px;
         font-family: "silka-medium-webfont";
         text-decoration: none;
+        line-height: 60px;
 
     }
 
@@ -108,14 +109,9 @@ body {
     li {
         color: #404040;
         font-family: "silka-light-webfont";
-        font-size: 24px;
+        font-size: 26px;
         padding-bottom:10px;
 
-    }
-
-    .titulo_tareas {
-        font-size: 18px;
-        color:#B6B6B6;
     }
 
 
@@ -123,7 +119,7 @@ body {
 
     header {
         width: 100%;
-        padding: 40px 40px 40px 40px
+        padding: 40px 0px 40px 0px
 
     }
 
@@ -429,6 +425,7 @@ width: 49%;
             font-size: 16px;
             font-family: "silka-medium-webfont";
             text-decoration: none;
+            line-height: 60px;
     
         }
     
@@ -455,7 +452,7 @@ width: 49%;
     
         header {
             width: 100%;
-            padding: 40px 40px 40px 40px
+            padding: 40px 0px 40px 0px
     
         }
     
@@ -760,6 +757,7 @@ width: 49%;
             font-size: 16px;
             font-family: "silka-medium-webfont";
             text-decoration: none;
+            line-height: 60px;
     
         }
     
@@ -1080,8 +1078,14 @@ width: 49%;
         font-family: "silka-extralight-webfont";
     }
 
+.menu_link {
+    padding-left: 15px;
+}
 
-
+    .titulo_tareas {
+        font-size: 18px;
+        color:#B6B6B6;
+    }
 
 
 
