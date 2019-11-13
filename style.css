@@ -64,7 +64,7 @@ img:hover {
         src: url("fonts/silka-extralight-webfont.woff");
     }
 
-@media only screen and (min-width:1025px) and (max-width:1800px){
+@media only screen and (min-width:1025px) {
     /* TEXT */
         h1 {
             color: #404040;
